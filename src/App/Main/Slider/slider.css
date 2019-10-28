@@ -1,0 +1,57 @@
+.slider {
+	height: 580px;
+    margin-top: -290px;
+    margin-bottom: 30px;
+}
+
+.slide {
+	position: relative;
+}
+
+.slide-text {
+	position: absolute;
+	width: 470px;
+	color: white;
+	top: 230px;
+	left: 100px;
+}
+
+.slide-text h2 {
+	font-family: Hind;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 3.6px;
+}
+
+.slide-text p {
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.44);
+	color: #ffffff;
+	font-family: Hind;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5.6px;
+}
+
+.slide-title {
+	text-align: center;
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 1148px;
+	top: 275px;
+	color: white;
+	width: 270px;
+	font-family: Hind;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+
+.slick-dots {
+  left: 580px;
+  top: -930px;
+  transform: rotate(-90deg);
+}

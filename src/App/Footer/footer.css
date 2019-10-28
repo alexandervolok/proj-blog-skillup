@@ -1,0 +1,112 @@
+footer {
+	background-color: #212429;
+	color: #ffffff;
+}
+
+.footer-grid {
+	display: grid;
+	grid-template-columns: 310px 310px 310px 310px;
+	grid-gap: 30px;
+}
+
+.footer-about, .footer-latest-tweets, .footer-instagram, .footer-latest-comments {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer-about h2 {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.96px;
+	padding-bottom: 40px;
+}
+
+.footer-about p {
+	font-family: Hind;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1.5px;
+}
+
+.footer-about div {
+	height: 147px;
+	background: url(signature.png) no-repeat;
+	background-position: 80% 80%;
+	background-color: #3a3c49;
+}
+
+.footer-latest-tweets h2 {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.96px;
+	padding-bottom: 40px;
+}
+
+.footer-latest-tweets p, h3 {
+	font-family: Hind;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1.5px;
+	padding-left: 20px;
+} 
+
+.footer-latest-tweets h3 {
+	background: url(twitter.png) no-repeat;
+	background-position: 0px 8px;
+}
+
+.footer-instagram h2 {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.96px;
+	padding-bottom: 40px;
+}
+
+.insta-gallery {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-auto-rows: 98px 98px;
+	grid-gap: 2px;
+}
+
+.insta-gallery div {
+	background-color: #f9f9fb;
+}
+
+.footer-latest-comments h2 {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.96px;
+	padding-bottom: 40px;
+}
+
+.footer-latest-comments p {
+	font-family: Hind;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1.5px;
+} 
+
+.copyright {
+	height: 40px;
+	background-color: #17191c;
+	text-align: center;
+	color: #ffffff;
+	font-family: Hind;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+}

@@ -1,0 +1,13 @@
+.header {
+	height: 345px;
+	background-color: #212429;
+}
+.container {
+	width: 1330px;
+	margin: 0 auto;
+}
+.header-grid {
+	display: grid;
+	grid-template-columns: 60px 1000px 270px;
+	grid-template-rows: 55px 290px;
+}

@@ -1,0 +1,135 @@
+.right-sidebar {
+	background-color: #ffffff;
+	height: 1900px;
+	display: grid;
+	grid-template-rows: 130px 600px 280px 250px 375px 250px;
+	text-align: center;
+	height: 1900px;
+	margin-bottom: 40px;
+}
+.searchbar {
+	margin-left: 30px;
+	margin-top: 40px;
+	width: 300px;
+	height: 50px;
+	display: grid;
+	grid-template-columns: 250px 50px;
+}
+.searchbar input {
+	background-color: #f9f9fb;
+	border-style: none;
+	padding-left: 20px;
+}
+.searchbar button {
+	background: url(search.png) no-repeat;
+	background-position: 50% 50%;
+	background-color: #212121;
+	cursor: pointer;
+}
+.searchbar button:hover {
+	background-color: #999999;
+}
+.home-categories {
+	height: 200px;
+	width: 300px;
+	margin-left: 30px;
+	margin-top: 40px;
+	display: grid;
+	grid-template-rows: 35px 55px 55px 55px;
+}
+.home-categories-title {
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.home-category-box {
+	line-height: 58px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-family: Hind;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.home-category-box:hover {
+	background-color: #212121;
+	color: white;
+}
+.home-latest-post {
+	display: grid;
+	grid-template-rows: 30px 105px 105px 105px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.home-categories a {
+	color: #212121;
+	text-decoration: none;
+}
+.home-category-lifestyle,.home-category-fashion,.home-category-travelling {
+	text-align: left;
+}
+.home-lifestyle-count,.home-fashion-count,.home-travelling-count {
+	text-align: right;
+}
+.home-latest-title {
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	line-height: 50px;
+}
+.home-latest {
+	position: relative;
+}
+.latest-img {
+	width: 80px;
+	height: 62px;
+	background-color: #f3f3f3;
+	position: relative;
+	left: 30px;
+	top: 30px;
+}
+.latest-title {
+	text-align: left;
+	width: 205px;
+	height: 35px;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	position: absolute;
+	left: 120px;
+	top: 30px;
+}
+.latest-date {
+	color: #999999;
+	font-family: Hind;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	position: absolute;
+	left: 120px;
+	top: 83px;
+}
+.latest-like-count {
+	color: #999999;
+	font-family: Hind;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	position: absolute;
+	left: 255px;
+	top: 83px;
+}

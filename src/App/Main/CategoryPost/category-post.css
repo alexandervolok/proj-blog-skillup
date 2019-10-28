@@ -1,0 +1,109 @@
+.category-post-image img {
+	width: 430px;
+	height: 255px;
+}
+.category-post-image button {
+	color: red;
+}
+.category-post-title a {
+	text-decoration: none;
+	color: #212121;
+}
+.category-post-title {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.category-post-title:hover {
+	font-size: 22px;
+}
+.category-post-date {
+	text-align: center;
+	color: #999999;
+	font-family: Hind;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+}
+.category-post-short-text {
+	height: 140px;
+	text-align: center;
+	color: #464646;
+	font-family: Hind;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1.5px;
+}
+.category-post-button-more-div {
+	text-align: center;
+}
+.category-post-button-more {
+	background-color: #f9f9fb;
+	width: 130px;
+	height: 30px;
+	border-right: 1px solid #d7d7d7;
+	border-left: 1px solid #d7d7d7;
+	color: #212121;
+	font-family: Hind;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 34px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	cursor: pointer;
+	margin-top: 20px;
+	display: inline-block;
+}
+.category-post-button-more a {
+	text-decoration: none;
+	color: #212121;
+
+}
+.category-post-button-more a:hover {
+	border-style: none;
+	background-color: #212121;
+	color: white;
+}
+.category-post-button-more:hover {
+	border-style: none;
+	background-color: #212121;
+	color: white;
+}
+.fav-button {
+	position: relative;
+	border-style: none;
+	left: 385px;
+	bottom: 45px;
+	height: 35px;
+	width: 35px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.favourited {
+	position: relative;
+	height: 35px;
+	width: 35px;
+	background: url(/images/favourite_clicked.png) no-repeat;
+	background-position: -60% 50%;
+	background-size: 30px;
+}
+.not-favourited {
+	position: relative;
+	height: 35px;
+	width: 35px;
+	background: url(/images/favourite.png) no-repeat;
+	background-position: -60% 50%;
+	background-size: 30px;
+}
+.favourited:hover, .not-favourited:hover {
+	background-size: 35px;
+}

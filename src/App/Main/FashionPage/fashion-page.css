@@ -1,0 +1,20 @@
+h1 {
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.44);
+	color: #212121;
+	font-family: Hind;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5.6px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.category-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 430px);
+	grid-auto-rows: 555px;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+	margin-bottom: 60px;
+}

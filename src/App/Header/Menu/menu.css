@@ -1,0 +1,43 @@
+.menu_button {
+	width: 60px;
+	height: 55px;
+	background: url(menu_icon.png) no-repeat;
+	background-size: 20px 13px;
+	background-position: 50% 50%;
+	border-style: none;
+	border-right: 1px solid #3c3c3c;
+	border-left: 1px solid #3c3c3c;
+	cursor: pointer;
+}
+.menu:hover {
+	background-color: #999999;
+}
+.menu_items {
+	position: relative;
+	top: -1px;
+	color: white;
+	z-index: 999;
+}
+.menu-item {
+	width: 110px;
+	background-color: #212429;
+}
+.menu-item a {
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: Hind;
+	font-weight: 400;
+	letter-spacing: 1.42px;
+	line-height: 28px;
+	width: inherit;
+	height: inherit;
+}
+.menu-item a:hover {
+	background-color: #dfdede;
+	color: white;
+}

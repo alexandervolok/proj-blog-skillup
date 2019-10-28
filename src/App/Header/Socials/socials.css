@@ -1,0 +1,65 @@
+.socials {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.fav {
+	width: 54px;
+	height: 55px;
+	background: url(/images/fav-icon.png) no-repeat;
+	background-size: 18px;
+	background-position: 50% 50%;
+	border-style: none;
+	border-right: 1px solid #3c3c3c;
+	border-left: 1px solid #3c3c3c;
+	cursor: pointer;
+}
+.fav-counter {
+	position: relative;
+	top:-25px;
+	left: 34px;
+	color: rgb(165, 165, 165);
+	font-family: Hind;
+	font-weight: 400;
+}
+.twitter {
+	width: 54px;
+	height: 55px;
+	background: url(twitter.png) no-repeat;
+	background-position: 50% 50%;
+	border-style: none;
+	border-right: 1px solid #3c3c3c;
+	cursor: pointer;
+}
+
+.tumbler {
+	width: 54px;
+	height: 55px;
+	background: url(tumbler.png) no-repeat;
+	background-position: 50% 50%;
+	border-style: none;
+	border-right: 1px solid #3c3c3c;
+	cursor: pointer;
+}
+
+.facebook {
+	width: 54px;
+	height: 55px;
+	background: url(facebook.png) no-repeat;
+	background-position: 50% 50%;
+	border-style: none;
+	border-right: 1px solid #3c3c3c;
+	cursor: pointer;
+}
+
+.search {
+	width: 54px;
+	height: 55px;
+	background: url(Search.png) no-repeat;
+	background-position: 50% 50%;
+	border-style: none;
+	border-right: 1px solid #3c3c3c;
+	cursor: pointer;
+}
+.search:hover,.facebook:hover, .tumbler:hover, .fav:hover, .tumbler:hover, .twitter:hover {
+	background-color: #dfdede;
+}

@@ -1,0 +1,233 @@
+.main-grid {
+	display: grid;
+	grid-template-columns: 940px 360px;
+	grid-gap: 30px;
+}
+
+.post-image {
+	position: relative;
+	height: 490px;
+}
+
+.homepage-post {
+	margin-bottom: 90px;
+}
+
+.post-image div {
+	position: absolute;
+	top: 472px;
+	left: 450px;
+	background: url(img_pic.png) no-repeat;
+	background-position: 50% 50%;
+	width: 40px;
+	height: 35px;
+	box-shadow: 1px 1px 3px rgba(213, 213, 213, 0.75);
+	background-color: #212121;
+}
+
+.category-name {
+	text-align: center;
+	color: #999999;
+	font-family: Hind;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	margin-top: 67px;
+}
+
+.news-title {
+	text-align: center;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.68px;
+	margin-top: 30px;
+}
+
+.author-and-date {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Hind;
+	font-weight: 400;
+	letter-spacing: 1.42px;
+	line-height: 28px;
+	color: #999999;
+	margin-top: 28px;
+}
+
+.author-and-date span {
+	padding-left: 40px;
+}
+
+.post-author {
+	background: url(author_icon.png) no-repeat;
+	background-size: 15px 15px;
+	background-position: 12% 30%;
+}
+
+.post-date {
+	background: url(calendar_icon.png) no-repeat;
+	background-size: 15px 15px;
+	background-position: 12% 30%;
+}
+
+.short-text {
+	margin-top: 35px;
+	text-align: center;
+	color: #464646;
+	font-family: Hind;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1.6px;
+}
+
+.read-more-div {
+	text-align: center;
+}
+
+.read-more-button {
+	background-color: #f9f9fb;
+	width: 130px;
+	height: 30px;
+	margin-bottom: 80px;
+	margin-top: 45px;
+	border-style: none;
+	border-right: 1px solid #d7d7d7;
+	border-left: 1px solid #d7d7d7;
+	color: #212121;
+	font-family: Hind;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	cursor: pointer;
+}
+.read-more-button:hover {
+	border-style: none;
+	background-color: #212121;
+	color: white;
+}
+
+.homepage-post hr {
+	border: 1px solid black;
+	opacity: 0.2;
+}
+
+.post-panel {
+	display: grid;
+	grid-template-columns: 160px 1fr 160px;
+}
+
+.panel-comment-count, .panel-comment p, .panel-like p, .panel-like-count {
+	display: inline-block;
+	font-family: Hind;
+	font-weight: 400;
+	letter-spacing: 1.42px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #999999;
+	padding-left: 5px;
+}
+
+.panel-comment-button {
+	border-style: none;
+	width: 14px;
+	height: 14px;
+	background: url(comment_pic.png) no-repeat;
+	background-size: 14px 14px;
+	background-position: 50% 50%;
+}
+
+.panel-like-button {
+	border-style: none;
+	width: 14px;
+	height: 14px;
+	background: url(like_pic.png) no-repeat;
+	background-size: 15px 16px;
+	background-position: 50% 50%;
+}
+
+.panel-socials {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.panel-web {
+	width: 17px;
+	height: 17px;
+	background: url(social1.png) no-repeat;
+	background-position: 50% 50%;
+	cursor: pointer;
+}
+
+.panel-facebook {
+	width: 17px;
+	height: 17px;
+	background: url(social2.png) no-repeat;
+	background-position: 50% 50%;
+}
+
+.panel-twitter {
+	width: 17px;
+	height: 17px;
+	background: url(social3.png) no-repeat;
+	background-position: 50% 50%;
+}
+
+.panel-pinterest {
+	width: 17px;
+	height: 17px;
+	background: url(social4.png) no-repeat;
+	background-position: 50% 50%;
+}
+
+.quote-post	{
+	background-color: #131d1c;
+	text-align: center;
+	margin-bottom: 90px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-right: 65px;
+	padding-left: 65px;
+	position: relative;
+}
+
+.quote-text {
+	color: #ffffff;
+	font-family: Hind;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 36px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 60px;
+}
+
+.quote-author {
+	color: #999999;
+	font-family: Hind;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+}
+
+.quote-post div {
+	position: absolute;
+	top: -18px;
+	left: 450px;
+	width: 40px;
+	height: 35px;
+	background: url(quote_pic.png) no-repeat;
+	background-position: 50% 50%;
+	background-color: white;
+	border: 1px solid #e5e5e5;
+}
